@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.centered {
+    text-align: center;
+    color: #333; /* 修改字体颜色 */
+    font-size: 24px; /* 修改字体大小 */
+}
+
+button {
+    background-color: #007bff; /* 修改按钮背景颜色 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; /* 修改按钮字体大小 */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
